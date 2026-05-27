@@ -1,0 +1,14 @@
+Merge is an mechanism which combines changes(files/directories - associated commits) from one branch to another branch.
+
+command: git merge branch_name
+
+-----------------------------------
+Types of merges:
+-----------------------------------
+1. fast forward merge: This merge happens when there is an single commit.
+
+   eg:  master  M1 M2 M2 M4 M5
+
+          master> git merge develop
+
+       develop  M1 M2 M2 M4 M5
